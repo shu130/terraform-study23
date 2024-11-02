@@ -1,6 +1,6 @@
 # Terraform勉強-第23回：CloudWatchエージェント, SSMパラメータストアでログを CloudWatch Logs に送信する
 
-githubリポジトリ：""
+githubリポジトリ："https://github.com/shu130/terraform-study23"
 
 ## テーマ: 
   - EC2 オートスケーリンググループでApacheを導入し、**CloudWatchエージェントを利用してアクセスログとエラーログを CloudWatch Logs に送信する**環境を構築
