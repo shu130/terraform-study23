@@ -1,0 +1,136 @@
+<mxfile host="65bd71144e">
+    <diagram id="af0zJv1sFqZIyem5Vi3e" name="ページ1">
+        <mxGraphModel dx="1150" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="69" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Terrafrom&lt;br&gt;AWS-CLI&lt;/font&gt;&lt;/b&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console" vertex="1" parent="1">
+                    <mxGeometry x="80" y="123" width="100" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CloudWatchLogs&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="291" width="240" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="ロググループ" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="124" y="340" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="ログストリーム" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="151" y="375" width="146" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="ログストリーム" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="151" y="430" width="146" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.logs;" vertex="1" parent="1">
+                    <mxGeometry x="111" y="240" width="78" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="296" y="75" width="275" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;SSMパラメータストア&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=3;" vertex="1" parent="79">
+                    <mxGeometry x="47.41379310344828" y="20" width="227.58620689655172" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;b&gt;CloudWatchAgent&lt;br&gt;パラメータ&lt;br&gt;(JSON)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;verticalAlign=middle;" vertex="1" parent="79">
+                    <mxGeometry x="91.98" y="55" width="138.45" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.89;exitY=0.621;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="69" target="78">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="518.187134502924" y="69" as="sourcePoint"/>
+                        <mxPoint x="731" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=13;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="111" width="340" height="419" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;AutoscalingGroup&lt;/b&gt;&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;labelPosition=center;" vertex="1" parent="1">
+                    <mxGeometry x="735" y="75" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Tomlファイル" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="772" y="240" width="146" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="JSONファイル" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="160" width="146" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="690" y="331" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;strokeWidth=3;" vertex="1" parent="82">
+                    <mxGeometry x="-5.3" y="19" width="55" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;b&gt;②設定の取得&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="82">
+                    <mxGeometry x="60" y="-11" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="842" y="200" as="sourcePoint"/>
+                        <mxPoint x="842" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CloudWatchAgent&lt;/b&gt;&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.agent;labelPosition=center;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="330" width="52.7" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="684.7" y="461" width="55" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CloudWatchAgent&lt;/b&gt;&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.agent;labelPosition=center;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="441" width="52.7" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="endArrow=classic;html=1;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="61" target="73">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="432.64" y="320" as="sourcePoint"/>
+                        <mxPoint x="419.9999999999999" y="371" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="" style="endArrow=classic;html=1;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="93" target="74">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="670" y="367.7070758957236" as="sourcePoint"/>
+                        <mxPoint x="307" y="405" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="81" target="91">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="780" y="265" as="sourcePoint"/>
+                        <mxPoint x="767.3599999999999" y="316" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="81" target="92">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="855" y="290" as="sourcePoint"/>
+                        <mxPoint x="708.45" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="845" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="78" target="80">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="362" y="240.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="540" y="303.34000000000003" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.parameter_store;" vertex="1" parent="1">
+                    <mxGeometry x="295.99999999999994" y="60" width="71.12068965517241" height="73.96551724137932" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;b&gt;①設定の保存&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="130" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="&lt;b&gt;②設定の取得&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="612.7" y="145" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;b&gt;③ログの送信&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="471" y="376" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;b&gt;③ログの送信&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="481" y="461" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&lt;b&gt;②設定の取得&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="440" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="&lt;b&gt;各リソースの関係&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=21;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="10" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;p style=&quot;line-height: 80%; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;【補足】②設定の取得について：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 80%; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;・EC2インスタンスのuser_dataを使用してSSMパラメータストアから設定を取得。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 80%; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;・取得された設定（JSON形式）は、まず一時ファイルとして保存される。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 80%; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;・その後、エージェントによってTOML形式に変換されます。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 80%; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; ※TOMLファイルは、CloudWatchエージェントが使用する最終的な設定ファイル。&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;line-height: 80%; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=16;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="289" y="560" width="631" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
